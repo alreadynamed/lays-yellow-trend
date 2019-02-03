@@ -1,6 +1,7 @@
-@import "./fonts.scss";
-@import "./variables.scss";
-@import "./content/header.scss";
+@import './fonts.scss';
+@import './variables.scss';
+@import './modules/header.scss';
+@import "./modules/content.scss";
 
 html,
 body {
@@ -8,6 +9,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
@@ -19,11 +21,7 @@ body {
   padding: 0;
 }
 
-section {
-  display: block;
-}
-
-.page {
+.main {
   position: relative;
   max-width: 1920px;
   min-width: 320px;
