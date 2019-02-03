@@ -78,3 +78,51 @@
 .lays-hashtag {
   color: $laysMainColor;
 }
+
+.headline {
+  position: absolute;
+  top: 46%;
+  width: 100%;
+  height: auto;
+}
+
+.upper-string {
+  position: relative;
+  left: 51px;
+  width: 100%;
+  font-family: $mediumFont;
+  // font-size: 11.9rem;
+  font-size: 6.25vw;
+  color: $laysMainColor;
+  letter-spacing: 3px;
+}
+
+.middle-string {
+  position: relative;
+  left: 51px;
+  width: 100%;
+  font-family: $lightFont;
+  // font-size: 6.45rem;
+  font-size: 3.38vw;
+  color: $laysMainColor;
+  letter-spacing: 3px;
+  line-height: 2.2vw;
+}
+
+.lower-string {
+  position: relative;
+  left: 51px;
+  width: 100%;
+  font-family: $lightFont;
+  // font-size: 6.45rem;
+  font-size: 3.38vw;
+  color: $laysMainColor;
+  letter-spacing: 3px;
+
+  &_bold {
+    font-family: $blackFont;
+    font-size: 5.11vw;
+    // line-height: 10.9rem;
+    line-height: 6vw;
+  }
+}
