@@ -4,18 +4,35 @@ $regularFont: "GothamPro-Regular";
 $mediumFont: "GothamPro-Medium";
 $boldFont: "GothamPro-Bold";
 $blackFont: "GothamPro-Black";
+$footerFont: Arial,
+Helvetica,
+sans-serif;
 
 // Size
 $menuFontSize: 1.4rem;
 $logoFontSize: 1.6rem;
-$iconDescFontSize: 1.7rem;
+$mobileIconDescFontSize: 0.8125rem;
 $mainPageLineHeight: 1;
 
 // Colors
 $menuFontColor: #555;
 $logoFontColor: #f73934;
 $laysMainColor: #f73934;
+$footerBackground: #3c3c3c;
+$footerTextColor: #b4b4b4;
+$mobileCaptionFontColor: #d62b2b;
+$mobileLaysHashtagColor: #f73934;
+$secondMobileLaysHashtagColor: #d62b2b;
+$mobileLineColor: #fc202e;
 $menuColor: #f6f6f6;
 $pageShadow: 0 0 40px 0 rgba(0, 0, 0, .5);
-$pageBackground: #ffda2d;
+$galleryBackground: #ffffff;
+$secondaryPageBackground: #ffda2d;
 $iconDesc: #45370a;
+
+// links background color 
+
+$facebook: #326aa2;
+$vk: #3479a8;
+$lays: #edbf11;
+$youtube: #c4070e;
