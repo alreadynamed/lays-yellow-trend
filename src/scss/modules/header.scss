@@ -7,6 +7,7 @@
   width: 100%;
   height: 80px;
   background: $menuColor;
+  z-index: 1;
 }
 
 .menu {
@@ -50,10 +51,10 @@
 .line {
   width: 32px;
   height: 5px;
-  background: #fc202e;
   position: absolute;
   left: 50%;
   margin-left: -16px;
+  background: $mobileLineColor;
   opacity: 1;
   transform-origin: left center;
   transition: all 0.2s ease-in-out;
