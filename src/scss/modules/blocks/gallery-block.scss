@@ -6,9 +6,14 @@
   padding-top: 640px / 320px * 100%;
   background: $galleryBackground;
 
-  @media (max-width: 1400px) and (min-width: 681px) {
+  @media (max-width: 1024px) and (min-width: 681px) {
     // display: flex;
     padding-top: 296px / 571px * 100%;
+  }
+
+  @media (max-width: 1400px) and (min-width: 1025px) {
+    // display: flex;
+    padding-top: 455px / 858px * 100%;
   }
 }
 
