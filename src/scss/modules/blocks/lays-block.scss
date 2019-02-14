@@ -11,6 +11,11 @@
   @media (max-width: 1400px) and (min-width: 1025px) {
     padding-top: 296px / 571px * 100%;
   }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    // display: flex;
+    padding-top: 650px / 1234px * 100%;
+  }
 }
 
 .lays__image-block {
@@ -25,6 +30,13 @@
     top: 0;
     overflow: hidden;
   }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+  }
 }
 
 // description background
@@ -34,6 +46,26 @@
   background-size: cover;
 
   @media (max-width: 1400px) and (min-width: 681px) {
+    position: absolute;
+    left: 50%;
+    border-top: 0;
+    padding-top: 0;
+    background: url(/src/img/desktop/block_lays.jpg) no-repeat;
+    background-size: cover;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 40.5%;
+      right: 100%;
+      width: 4.3vw;
+      height: 10.2vw;
+      background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
+      background-size: cover;
+    }
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     position: absolute;
     left: 50%;
     border-top: 0;
@@ -75,6 +107,16 @@
     background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
     background-size: cover;
   }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    padding-top: 0;
+    top: -2%;
+    left: -2%;
+    right: 0;
+    bottom: -2%;
+    background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 .lays-block__text {
@@ -93,6 +135,11 @@
     font-size: 4vw;
   }
 
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    top: 64.5%;
+    left: 50%;
+    font-size: 4vw;
+  }
 }
 
 .lays-block__button {
@@ -114,6 +161,15 @@
   background-color: rgba(168, 5, 0, .1);
 
   @media (max-width: 1400px) and (min-width: 681px) {
+    top: 79%;
+    left: 50%;
+    font-size: 1.5vw;
+    border-width: 1.5px;
+    letter-spacing: 1px;
+    background-color: none;
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     top: 79%;
     left: 50%;
     font-size: 1.5vw;
