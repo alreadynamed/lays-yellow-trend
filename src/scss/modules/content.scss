@@ -18,7 +18,15 @@
     height: auto;
   }
 
-  @media (max-width: 1400px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 1025px) {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    right: 0;
+    height: auto;
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     position: absolute;
     top: 0;
     left: 150px;
