@@ -13,6 +13,11 @@
     // display: flex;
     padding-top: 455px / 858px * 100%;
   }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    // display: flex;
+    padding-top: 650px / 1234px * 100%;
+  }
 }
 
 .about__image-block {
@@ -22,6 +27,14 @@
   height: 50%;
 
   @media (max-width: 1400px) and (min-width: 681px) {
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     top: 0;
     left: 50%;
     width: 50%;
@@ -53,6 +66,18 @@
     background: url(/src/img/desktop/about_block_img.jpg) no-repeat;
     background-size: cover;
   }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
+    width: 104.5%;
+    height: 104.5%;
+    padding-top: 0;
+    top: -1%;
+    left: -2%;
+    bottom: -10%;
+    right: -10%;
+    background: url(/src/img/desktop/about_block_img.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 .description-block {
@@ -61,9 +86,13 @@
   width: 100%;
   padding-top: 320px / 320px * 100%;
 
-
-
   @media (max-width: 1400px) and (min-width: 681px) {
+    top: 0;
+    width: 50%;
+    height: 100%;
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     top: 0;
     width: 50%;
     height: 100%;
@@ -75,6 +104,12 @@
     top: 13%;
 
     @media (max-width: 1400px) and (min-width: 681px) {
+      width: 50%;
+      top: 23%;
+      left: 47%;
+    }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
       width: 50%;
       top: 23%;
       left: 47%;
@@ -91,6 +126,10 @@
     @media (max-width: 1400px) and (min-width: 681px) {
       display: none;
     }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
+      display: none;
+    }
   }
 
   &__info_mobile {
@@ -103,6 +142,10 @@
     color: #ffffff;
 
     @media (max-width: 1400px) and (min-width: 681px) {
+      display: none;
+    }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
       display: none;
     }
   }
@@ -128,12 +171,42 @@
         background-size: cover;
       }
     }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
+      display: block;
+      font-family: $boldFont;
+      font-size: 3.5vw;
+      line-height: 3.8vw;
+      color: #ffffff;
+
+      &::before {
+        position: absolute;
+        content: '';
+        top: -20%;
+        left: -78.5%;
+        width: 16vw;
+        height: 17.5vw;
+        background: url(/src/img/desktop/about_block_red_icon.png) no-repeat;
+        background-size: cover;
+      }
+    }
   }
 
   &__info_desktop {
     display: none;
 
     @media (max-width: 1400px) and (min-width: 681px) {
+      display: block;
+      width: 134.5%;
+      margin-top: 18%;
+      margin-left: -67%;
+      width: 134.5%;
+      font-size: 1.3vw;
+      line-height: 1.6vw;
+      color: #ffffff;
+    }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
       display: block;
       width: 134.5%;
       margin-top: 18%;
@@ -175,6 +248,19 @@
       line-height: 4vw;
       background: none;
     }
+
+    @media (max-width: 1560px) and (min-width: 1401px) {
+      position: absolute;
+      font-size: 1.5vw;
+      letter-spacing: 1px;
+      border-width: 1.5px;
+      margin-top: 0;
+      margin-left: -107%;
+      width: 69.55%;
+      height: 21.75%;
+      line-height: 4vw;
+      background: none;
+    }
   }
 }
 
@@ -184,6 +270,24 @@
   background-size: cover;
 
   @media (max-width: 1400px) and (min-width: 681px) {
+    padding-top: 0;
+    background: url(/src/img/desktop/about_block_red.png) no-repeat;
+    background-size: cover;
+
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 24%;
+      left: 100%;
+      width: 4vw;
+      height: 9.4vw;
+      background: url(/src/img/desktop/about_block_red_arrow.png) no-repeat;
+      background-size: cover;
+    }
+  }
+
+  @media (max-width: 1560px) and (min-width: 1401px) {
     padding-top: 0;
     background: url(/src/img/desktop/about_block_red.png) no-repeat;
     background-size: cover;
