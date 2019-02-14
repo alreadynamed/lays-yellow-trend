@@ -4,7 +4,7 @@
   height: 0;
   padding-top: 640px / 320px * 100%;
 
-  @media (max-width: 1024px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 681px) {
     // display: flex;
     padding-top: 296px / 571px * 100%;
   }
@@ -16,7 +16,7 @@
   width: 100%;
   height: 50%;
 
-  @media (max-width: 1024px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 681px) {
     top: 0;
     left: 50%;
     width: 50%;
@@ -37,7 +37,7 @@
   background: url(/src/img/mobile/about_block_img.jpg) no-repeat;
   background-size: cover;
 
-  @media (max-width: 1024px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 681px) {
     width: 104.5%;
     height: 104.5%;
     padding-top: 0;
@@ -58,7 +58,7 @@
 
 
 
-  @media (max-width: 1024px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 681px) {
     top: 0;
     width: 50%;
     height: 100%;
@@ -69,7 +69,7 @@
     width: 100%;
     top: 13%;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       width: 50%;
       top: 23%;
       left: 47%;
@@ -83,7 +83,7 @@
     line-height: 9.5vw;
     color: #ffffff;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       display: none;
     }
   }
@@ -97,7 +97,7 @@
     line-height: 5vw;
     color: #ffffff;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       display: none;
     }
   }
@@ -105,7 +105,7 @@
   &__caption_desktop {
     display: none;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       display: block;
       font-family: $boldFont;
       font-size: 3.5vw;
@@ -128,7 +128,7 @@
   &__info_desktop {
     display: none;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       display: block;
       width: 134.5%;
       margin-top: 18%;
@@ -158,7 +158,7 @@
     background-color: rgba(255, 245, 159, .1);
     letter-spacing: .4px;
 
-    @media (max-width: 1024px) and (min-width: 681px) {
+    @media (max-width: 1400px) and (min-width: 681px) {
       position: absolute;
       font-size: 1.5vw;
       letter-spacing: 1px;
@@ -178,7 +178,7 @@
   background: url(/src/img/mobile/about_block_red.png) no-repeat;
   background-size: cover;
 
-  @media (max-width: 1024px) and (min-width: 681px) {
+  @media (max-width: 1400px) and (min-width: 681px) {
     padding-top: 0;
     background: url(/src/img/desktop/about_block_red.png) no-repeat;
     background-size: cover;
