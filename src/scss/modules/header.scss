@@ -9,11 +9,17 @@
   background: $menuColor;
   z-index: 1;
 
-  @media (max-width: 1400px) and (min-width: 681px) {
+  @media (max-width: 1024px) and (min-width: 681px) {
     position: fixed;
     width: 110px;
     height: 100%;
   }
+
+  @media (max-width: 1400px) and (min-width: 681px) {
+    width: 150px;
+    height: 100%;
+  }
+
 }
 
 .menu-wrap {
