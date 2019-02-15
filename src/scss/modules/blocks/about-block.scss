@@ -162,7 +162,7 @@
 
       &::before {
         position: absolute;
-        content: '';
+        content: "";
         top: -20%;
         left: -78.5%;
         width: 16vw;
@@ -174,18 +174,20 @@
 
     @media (max-width: 1560px) and (min-width: 1401px) {
       display: block;
+      margin-left: 4.5%;
+      margin-top: 1%;
       font-family: $boldFont;
-      font-size: 3.5vw;
-      line-height: 3.8vw;
+      font-size: 4vw;
+      line-height: 4.2vw;
       color: #ffffff;
 
       &::before {
         position: absolute;
-        content: '';
-        top: -20%;
-        left: -78.5%;
-        width: 16vw;
-        height: 17.5vw;
+        content: "";
+        top: -19%;
+        left: -78%;
+        width: 17.6vw;
+        height: 19.45vw;
         background: url(/src/img/desktop/about_block_red_icon.png) no-repeat;
         background-size: cover;
       }
@@ -208,16 +210,14 @@
 
     @media (max-width: 1560px) and (min-width: 1401px) {
       display: block;
-      width: 134.5%;
       margin-top: 18%;
-      margin-left: -67%;
-      width: 134.5%;
-      font-size: 1.3vw;
-      line-height: 1.6vw;
+      margin-left: -66%;
+      width: 142%;
+      font-size: 1.45vw;
+      line-height: 1.75vw;
       color: #ffffff;
     }
   }
-
 
   &__button {
     position: absolute;
@@ -233,8 +233,8 @@
     margin-left: -7%;
     width: 35%;
     height: 18%;
-    background-color: rgba(255, 245, 159, .1);
-    letter-spacing: .4px;
+    background-color: rgba(255, 245, 159, 0.1);
+    letter-spacing: 0.4px;
 
     @media (max-width: 1400px) and (min-width: 681px) {
       position: absolute;
@@ -251,12 +251,12 @@
 
     @media (max-width: 1560px) and (min-width: 1401px) {
       position: absolute;
-      font-size: 1.5vw;
+      font-size: 1.7vw;
       letter-spacing: 1px;
       border-width: 1.5px;
       margin-top: 0;
-      margin-left: -107%;
-      width: 69.55%;
+      margin-left: -106%;
+      width: 74%;
       height: 21.75%;
       line-height: 4vw;
       background: none;
@@ -274,10 +274,9 @@
     background: url(/src/img/desktop/about_block_red.png) no-repeat;
     background-size: cover;
 
-
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       top: 24%;
       left: 100%;
       width: 4vw;
@@ -292,14 +291,13 @@
     background: url(/src/img/desktop/about_block_red.png) no-repeat;
     background-size: cover;
 
-
     &::before {
       position: absolute;
-      content: '';
-      top: 24%;
-      left: 100%;
-      width: 4vw;
-      height: 9.4vw;
+      content: "";
+      top: 22.5%;
+      left: 99.9%;
+      width: 4.5vw;
+      height: 10.43vw;
       background: url(/src/img/desktop/about_block_red_arrow.png) no-repeat;
       background-size: cover;
     }
