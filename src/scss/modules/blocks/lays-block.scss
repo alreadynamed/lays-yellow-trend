@@ -55,7 +55,7 @@
 
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       top: 40.5%;
       right: 100%;
       width: 4.3vw;
@@ -75,11 +75,11 @@
 
     &::before {
       position: absolute;
-      content: '';
-      top: 40.5%;
-      right: 100%;
-      width: 4.3vw;
-      height: 10.2vw;
+      content: "";
+      top: 40%;
+      right: 99.5%;
+      width: 4.9vw;
+      height: 11.3vw;
       background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
       background-size: cover;
     }
@@ -136,9 +136,11 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    top: 64.5%;
+    top: 67%;
     left: 50%;
-    font-size: 4vw;
+    font-size: 4.4vw;
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -155,10 +157,10 @@
   font-family: $regularFont;
   font-size: 3.5vw;
   line-height: 8.7vw;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   color: #ffffff;
   border: 2px solid #ffffff;
-  background-color: rgba(168, 5, 0, .1);
+  background-color: rgba(168, 5, 0, 0.1);
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 79%;
@@ -170,16 +172,18 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    top: 79%;
+    top: 81.5%;
     left: 50%;
-    font-size: 1.5vw;
+    width: 36.5%;
+    height: 9.9%;
+    font-size: 1.7vw;
     border-width: 1.5px;
     letter-spacing: 1px;
     background-color: none;
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     opacity: 0;
     width: 100%;
