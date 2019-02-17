@@ -21,6 +21,10 @@
     height: 90px;
   }
 
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    height: 90px;
+  }
+
   &__copyright {
     float: left;
     margin-left: 29px;
@@ -46,6 +50,13 @@
     }
 
     @media (max-width: 1560px) and (min-width: 1401px) {
+      font-size: 12px;
+      line-height: 95px;
+      margin-left: 6px;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 1920px) and (min-width: 1561px) {
       font-size: 12px;
       line-height: 95px;
       margin-left: 6px;
@@ -80,6 +91,13 @@
     height: 89px;
     margin-left: 21px;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    display: block;
+    width: 69px;
+    height: 89px;
+    margin-left: 21px;
+  }
 }
 
 .copyright_desktop {
@@ -91,6 +109,11 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    display: block;
+    float: right;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     display: block;
     float: right;
   }
@@ -118,6 +141,11 @@
     height: 90px;
   }
 
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    width: 90px;
+    height: 90px;
+  }
+
 }
 
 .fb {
@@ -126,6 +154,12 @@
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    background: url(/src/img/desktop/social/facebook.jpg) no-repeat;
+    background-color: $facebook;
+    background-position: center;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     background: url(/src/img/desktop/social/facebook.jpg) no-repeat;
     background-color: $facebook;
     background-position: center;
@@ -142,6 +176,12 @@
     background-color: $vk;
     background-position: center;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    background: url(/src/img/desktop/social/vk.jpg) no-repeat;
+    background-color: $vk;
+    background-position: center;
+  }
 }
 
 .ls {
@@ -154,6 +194,12 @@
     background-color: $lays;
     background-position: center;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    background: url(/src/img/desktop/social/lays.jpg) no-repeat;
+    background-color: $lays;
+    background-position: center;
+  }
 }
 
 .yt {
@@ -162,6 +208,12 @@
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    background: url(/src/img/desktop/social/youtube.jpg) no-repeat;
+    background-color: $youtube;
+    background-position: center;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     background: url(/src/img/desktop/social/youtube.jpg) no-repeat;
     background-color: $youtube;
     background-position: center;
