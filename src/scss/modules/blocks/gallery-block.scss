@@ -20,6 +20,11 @@
     // display: flex;
     padding-top: 650px / 1234px * 100%;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    // display: flex;
+    padding-top: 733px / 1394px * 100%;
+  }
 }
 
 .description {
@@ -42,6 +47,16 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 0;
+    background: url(/src/img/desktop/gallery-block-background.jpg) no-repeat;
+    // background-size: contain;
+    background-size: cover;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     width: 50%;
     height: 100%;
     top: 0;
@@ -77,6 +92,14 @@
       line-height: 3.7vw;
     }
 
+    @media (max-width: 1920px) and (min-width: 1561px) {
+      top: 39%;
+      left: 15%;
+      font-family: $boldFont;
+      font-size: 2.9vw;
+      line-height: 3.7vw;
+    }
+
     &::after {
       content: "";
       position: absolute;
@@ -101,6 +124,15 @@
         left: 6.5%;
         width: 11vw;
         height: 14.3vw;
+        background: url(/src/img/desktop/gallery_block_social.png) no-repeat;
+        background-size: contain;
+      }
+
+      @media (max-width: 1920px) and (min-width: 1561px) {
+        top: -73%;
+        left: 6%;
+        width: 11.075vw;
+        height: 14.4105vw;
         background: url(/src/img/desktop/gallery_block_social.png) no-repeat;
         background-size: contain;
       }
@@ -133,6 +165,18 @@
     margin-top: 0.7rem;
     margin-left: -0.3rem;
     padding: 0px 0.4rem;
+    font-size: 2.9vw;
+    font-family: $regularFont;
+    letter-spacing: .1px;
+    line-height: 3.7vw;
+    color: $laysHashtagColor;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    width: 33%;
+    margin-top: 0.8rem;
+    margin-left: -0.5rem;
+    padding: 0 0.6rem;
     font-size: 2.9vw;
     font-family: $regularFont;
     letter-spacing: .1px;
@@ -178,6 +222,16 @@
     border-width: 1.5px;
   }
 
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    width: 40.8%;
+    height: 21.1%;
+    left: -1%;
+    top: 12%;
+    font-size: 1.7vw;
+    letter-spacing: 1px;
+    border-width: 1.5px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -209,6 +263,15 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    // padding-top: 296px / 295.5px * 100%;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     width: 50%;
     height: 100%;
     top: 0;
@@ -249,58 +312,119 @@
     right: 3px;
     bottom: 3px;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+  }
 }
 
 .photo-1 {
   background: url(/src/img/mobile/gallery-pictures/image_one.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_one.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-2 {
   background: url(/src/img/mobile/gallery-pictures/image_two.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_two.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-3 {
   background: url(/src/img/mobile/gallery-pictures/image_three.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_three.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-4 {
   background: url(/src/img/mobile/gallery-pictures/image_four.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_four.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-5 {
   background: url(/src/img/mobile/gallery-pictures/image_five.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_five.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-6 {
   background: url(/src/img/mobile/gallery-pictures/image_six.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_six.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-7 {
   background: url(/src/img/mobile/gallery-pictures/image_seven.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_seven.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-8 {
   background: url(/src/img/mobile/gallery-pictures/image_eight.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_eight.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .photo-9 {
   background: url(/src/img/mobile/gallery-pictures/image_nine.png) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 1920px) and (min-width: 1025px) {
+    background: url(/src/img/desktop/gallery-pictures/image_nine.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
