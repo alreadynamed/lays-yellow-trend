@@ -31,6 +31,11 @@
     width: 150px;
     height: 100%;
   }
+
+  @media (min-width: 1921px) {
+    width: 150px;
+    height: 100%;
+  }
 }
 
 .menu-wrap {
@@ -54,10 +59,10 @@
 }
 
 .menu-item {
-  width: 100%;
   background: $menuColor;
 
   @media (max-width: 680px) {
+    width: 100%;
     height: 80px;
   }
 
@@ -141,6 +146,8 @@
   }
 
   &__caption {
+    color: $logoFontColor;
+
     @media (max-width: 680px) {
       position: absolute;
       width: 118px;
@@ -151,7 +158,6 @@
       font-family: $mediumFont;
       font-size: 1.125rem;
       text-align: center;
-      color: $logoFontColor;
       letter-spacing: 1px;
     }
 
@@ -352,6 +358,10 @@
     background: #f0eded;
     border-top: 1px solid rgba(155, 155, 155, 0.18);
   }
+
+  @media (min-width: 681px) {
+    display: none;
+  }
 }
 
 .close-menu__text {
@@ -379,11 +389,15 @@
   }
 
   &_middle {
-    top: 10px;
-    transform-origin: center center;
+    @media (max-width: 680px) {
+      top: 10px;
+      transform-origin: center center;
+    }
   }
 
   &_lower {
-    top: 21px;
+    @media (max-width: 680px) {
+      top: 21px;
+    }
   }
 }
