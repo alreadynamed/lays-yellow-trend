@@ -16,6 +16,11 @@
     // display: flex;
     padding-top: 650px / 1234px * 100%;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    // display: flex;
+    padding-top: 733px / 1394px * 100%;
+  }
 }
 
 .lays__image-block {
@@ -32,6 +37,13 @@
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
     width: 50%;
     height: 100%;
     top: 0;
@@ -84,6 +96,26 @@
       background-size: cover;
     }
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    position: absolute;
+    left: 50%;
+    border-top: 0;
+    padding-top: 0;
+    background: url(/src/img/desktop/block_lays.jpg) no-repeat;
+    background-size: cover;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 40%;
+      right: 99.5%;
+      width: 4.9vw;
+      height: 11.3vw;
+      background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
+      background-size: cover;
+    }
+  }
 }
 
 .image-block__image_lays {
@@ -117,6 +149,16 @@
     background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
     background-size: cover;
   }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    padding-top: 0;
+    top: -2%;
+    left: -2%;
+    right: 0;
+    bottom: -2%;
+    background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 .lays-block__text {
@@ -137,6 +179,14 @@
 
   @media (max-width: 1560px) and (min-width: 1401px) {
     top: 67%;
+    left: 50%;
+    font-size: 4.4vw;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    top: 66.7%;
     left: 50%;
     font-size: 4.4vw;
     text-align: center;
@@ -173,6 +223,17 @@
 
   @media (max-width: 1560px) and (min-width: 1401px) {
     top: 81.5%;
+    left: 50%;
+    width: 36.5%;
+    height: 9.9%;
+    font-size: 1.7vw;
+    border-width: 1.5px;
+    letter-spacing: 1px;
+    background-color: none;
+  }
+
+  @media (max-width: 1920px) and (min-width: 1561px) {
+    top: 81%;
     left: 50%;
     width: 36.5%;
     height: 9.9%;
