@@ -175,15 +175,12 @@
 .lays-block__text {
   position: absolute;
   font-family: GothamPro-Bold;
+  width: 60%;
+  top: 61.5%;
+  left: 52%;
+  font-size: 9.2vw;
   color: $letoLaysColor;
   transform: translateX(-50%);
-
-  @media (max-width: 680px) {
-    width: 60%;
-    top: 61.5%;
-    left: 52%;
-    font-size: 9.2vw;
-  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 64.5%;
@@ -213,23 +210,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 35%;
+  height: 9.575%;
+  top: 76%;
+  left: 52%;
   font-family: $regularFont;
+  font-size: 3.5vw;
   color: #ffffff;
+  line-height: 8.7vw;
+  letter-spacing: 0.4px;
   border: 2px solid #ffffff;
   background-color: rgba(168, 5, 0, 0.1);
   transform: translateX(-50%);
-
-
-  @media (max-width: 680px) {
-    width: 35%;
-    height: 9.575%;
-    top: 76%;
-    left: 52%;
-    font-size: 3.5vw;
-    line-height: 8.7vw;
-    letter-spacing: 0.4px;
-  }
-
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 79%;
