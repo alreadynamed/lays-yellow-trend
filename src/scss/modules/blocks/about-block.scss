@@ -112,6 +112,16 @@
     background: url(/src/img/desktop/about_block_img.jpg) no-repeat;
     background-size: cover;
   }
+
+  @media (min-width: 1025px) {
+    transform: scale(1);
+    transition: transform 10s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 10s linear;
+    }
+  }
 }
 
 .description-block {
