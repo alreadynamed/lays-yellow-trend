@@ -373,6 +373,25 @@
       line-height: 4vw;
       background: none;
     }
+
+    @media (min-width: 1025px) {
+      &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        background: #000;
+        transition: opacity .5s ease;
+      }
+
+      &:hover:before {
+        opacity: .1;
+        cursor: pointer;
+      }
+    }
   }
 }
 

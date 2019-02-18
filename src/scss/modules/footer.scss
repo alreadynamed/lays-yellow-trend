@@ -134,7 +134,6 @@
 .link {
   float: left;
   opacity: .85;
-  opacity: .85;
 
   @media (max-width: 680px) {
     width: 45px;
@@ -164,6 +163,14 @@
     width: 90px;
     height: 90px;
     background-size: 52%;
+  }
+
+  @media (min-width: 1025px) {
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+      transition: opacity .7s ease;
+    }
   }
 
 }
