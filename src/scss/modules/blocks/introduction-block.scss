@@ -36,7 +36,7 @@
       background-size: cover;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 100%;
       height: 0;
       // padding-top: 580px / 1252px * 100%;
@@ -78,7 +78,7 @@
     left: 24%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     width: 58.711%;
     height: 42.53%;
     top: 7%;
@@ -102,7 +102,7 @@
     height: 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     width: 23%;
     height: 100%;
   }
@@ -110,7 +110,7 @@
   &_heart-width {
     width: 24.25%;
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 23%;
     }
   }
@@ -118,7 +118,7 @@
   &_gift-width {
     width: 34.25%;
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 23%;
     }
   }
@@ -139,7 +139,7 @@
       height: 8vw;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 8.841vw;
       height: 8.841vw;
     }
@@ -166,7 +166,7 @@
       margin: 0;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 91.67%;
       height: 91.67%;
     }
@@ -207,7 +207,7 @@
       letter-spacing: 0;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       padding-top: 1.1vw;
       font-size: 1.1vw;
       line-height: 1.4vw;
@@ -269,7 +269,7 @@
     right: 0;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     width: 90%;
     top: 49.9%;
     margin-left: 3.7%;
@@ -307,7 +307,7 @@
     color: $laysMainColor;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     font-size: 6.4vw;
     line-height: 6.4vw;
     letter-spacing: 3px;
@@ -336,7 +336,7 @@
     color: $laysMainColor;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     font-size: 3.5vw;
     line-height: 2.6vw;
     letter-spacing: 0.15vw;
@@ -361,7 +361,7 @@
     color: $laysMainColor;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     font-size: 3.3vw;
     padding-top: 0.25vw;
     letter-spacing: 0.3vw;
@@ -394,7 +394,7 @@
       color: $laysMainColor;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       font-size: 5.3vw;
       line-height: 5.2vw;
       letter-spacing: 0.15vw;

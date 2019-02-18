@@ -19,7 +19,7 @@
     padding-top: 650px / 1234px * 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     // display: flex;
     padding-top: 733px / 1394px * 100%;
   }
@@ -47,7 +47,7 @@
     overflow: hidden;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     top: 0;
     left: 50%;
     width: 50%;
@@ -92,7 +92,7 @@
     background-size: cover;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     width: 104.5%;
     height: 104.5%;
     padding-top: 0;
@@ -123,7 +123,7 @@
     height: 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     top: 0;
     width: 50%;
     height: 100%;
@@ -146,7 +146,7 @@
       left: 47%;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       width: 50%;
       top: 23%;
       left: 47%;
@@ -168,7 +168,7 @@
       display: none;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       display: none;
     }
   }
@@ -190,7 +190,7 @@
       display: none;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       display: none;
     }
   }
@@ -238,7 +238,7 @@
       }
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       display: block;
       margin-left: 4%;
       margin-top: 2%;
@@ -284,7 +284,7 @@
       color: #ffffff;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       display: block;
       margin-top: 17.5%;
       margin-left: -65.5%;
@@ -338,7 +338,7 @@
       background: none;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       position: absolute;
       font-size: 1.7vw;
       letter-spacing: 1px;
@@ -392,7 +392,7 @@
     }
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     padding-top: 0;
     background: url(/src/img/desktop/about_block_red.png) no-repeat;
     background-size: cover;

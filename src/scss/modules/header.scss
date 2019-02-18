@@ -1,18 +1,17 @@
 @import "./variables.scss";
 
 .header {
+  position: fixed;
+  top: 0;
+  background: $menuColor;
+  z-index: 1;
+
   @media (max-width: 680px) {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 80px;
-    background: $menuColor;
-    z-index: 1;
   }
 
   @media (max-width: 1024px) and (min-width: 681px) {
-    position: fixed;
     width: 110px;
     height: 100%;
   }
@@ -27,12 +26,7 @@
     height: 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
-    width: 150px;
-    height: 100%;
-  }
-
-  @media (min-width: 1921px) {
+  @media (min-width: 1561px) {
     width: 150px;
     height: 100%;
   }
@@ -53,7 +47,7 @@
     height: 558px;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     height: 558px;
   }
 }
@@ -78,7 +72,7 @@
     height: 118px;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     position: relative;
     width: 100%;
     height: 118px;
@@ -91,7 +85,7 @@
     }
   }
 
-  @media (max-width: 1920px) and (min-width: 681px) {
+  @media (min-width: 681px) {
     &:first-child {
       height: 204px;
     }
@@ -134,7 +128,7 @@
   }
 
   &__logo_desktop {
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -181,7 +175,7 @@
       letter-spacing: 0;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       position: relative;
       width: 100%;
       top: 126px;
@@ -215,7 +209,7 @@
       bottom: 20px;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       position: absolute;
       width: 100%;
       height: auto;
@@ -251,7 +245,7 @@
       top: 85px;
     }
 
-    @media (max-width: 1920px) and (min-width: 1561px) {
+    @media (min-width: 1561px) {
       position: relative;
       width: 100%;
       height: 14px;
@@ -281,7 +275,7 @@
     background-size: 48px 48px;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     background: url(/src/img/desktop/menu/gallery.png) no-repeat;
     background-position: center;
     background-size: 48px 48px;
@@ -307,7 +301,7 @@
     background-size: 49px 59px;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     background: url(/src/img/desktop/menu/about.png) no-repeat;
     background-position: center 40%;
     background-size: 49px 59px;
@@ -333,7 +327,7 @@
     background-size: 51px 49px;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     background: url(/src/img/desktop/menu/lays.png) no-repeat;
     background-position: center;
     background-size: 51px 49px;

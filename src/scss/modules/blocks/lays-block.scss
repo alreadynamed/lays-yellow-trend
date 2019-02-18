@@ -17,7 +17,7 @@
     padding-top: 650px / 1234px * 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     // display: flex;
     padding-top: 733px / 1394px * 100%;
   }
@@ -43,7 +43,7 @@
     overflow: hidden;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     width: 50%;
     height: 100%;
     top: 0;
@@ -97,7 +97,7 @@
     }
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     position: absolute;
     left: 50%;
     border-top: 0;
@@ -150,7 +150,7 @@
     background-size: cover;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     padding-top: 0;
     top: -2%;
     left: -2%;
@@ -185,7 +185,7 @@
     width: 100%;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     top: 66.7%;
     left: 50%;
     font-size: 4.4vw;
@@ -232,7 +232,7 @@
     background-color: none;
   }
 
-  @media (max-width: 1920px) and (min-width: 1561px) {
+  @media (min-width: 1561px) {
     top: 81%;
     left: 50%;
     width: 36.5%;
