@@ -2,7 +2,10 @@
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 640px / 320px * 100%;
+
+  @media (max-width: 680px) {
+    padding-top: 640px / 320px * 100%;
+  }
 
   @media (max-width: 1024px) and (min-width: 681px) {
     padding-top: 296px / 571px * 100%;
@@ -25,9 +28,12 @@
 
 .lays__image-block {
   position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 50%;
+
+  @media (max-width: 680px) {
+    top: 50%;
+    width: 100%;
+    height: 50%;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     width: 50%;
@@ -53,9 +59,11 @@
 
 // description background
 .lays {
-  border-top: 5px solid #ffffff;
-  background: url(/src/img/mobile/lays_block.png) no-repeat;
-  background-size: cover;
+  @media (max-width: 680px) {
+    border-top: 5px solid #ffffff;
+    background: url(/src/img/mobile/lays_block.png) no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     position: absolute;
@@ -122,13 +130,16 @@
   position: absolute;
   width: auto;
   height: auto;
-  top: -5%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-top: 320px / 320px * 100%;
-  background: url(/src/img/mobile/block_lays_img.jpg) no-repeat;
-  background-size: cover;
+
+  @media (max-width: 680px) {
+    top: -5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 320px / 320px * 100%;
+    background: url(/src/img/mobile/block_lays_img.jpg) no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     padding-top: 0;
@@ -163,13 +174,16 @@
 
 .lays-block__text {
   position: absolute;
-  top: 61.5%;
-  left: 52%;
-  width: 60%;
-  transform: translateX(-50%);
   font-family: GothamPro-Bold;
-  font-size: 9.2vw;
   color: $letoLaysColor;
+  transform: translateX(-50%);
+
+  @media (max-width: 680px) {
+    width: 60%;
+    top: 61.5%;
+    left: 52%;
+    font-size: 9.2vw;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 64.5%;
@@ -199,18 +213,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
-  height: 9.575%;
-  top: 76%;
-  left: 52%;
-  transform: translateX(-50%);
   font-family: $regularFont;
-  font-size: 3.5vw;
-  line-height: 8.7vw;
-  letter-spacing: 0.4px;
   color: #ffffff;
   border: 2px solid #ffffff;
   background-color: rgba(168, 5, 0, 0.1);
+  transform: translateX(-50%);
+
+
+  @media (max-width: 680px) {
+    width: 35%;
+    height: 9.575%;
+    top: 76%;
+    left: 52%;
+    font-size: 3.5vw;
+    line-height: 8.7vw;
+    letter-spacing: 0.4px;
+  }
+
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 79%;
