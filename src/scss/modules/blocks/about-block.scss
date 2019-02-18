@@ -323,20 +323,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3.5vw;
+    width: 35%;
+    height: 18%;
+    left: 39.5%;
+    bottom: -34%;
+    margin-top: 0;
+    margin-left: -7%;
+    letter-spacing: 0.4px;
     color: #ffffff;
     border: 2px solid white;
     background-color: rgba(255, 245, 159, 0.1);
-
-    @media (max-width: 680px) {
-      font-size: 3.5vw;
-      left: 39.5%;
-      bottom: -34%;
-      margin-top: 0;
-      margin-left: -7%;
-      width: 35%;
-      height: 18%;
-      letter-spacing: 0.4px;
-    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       position: absolute;
