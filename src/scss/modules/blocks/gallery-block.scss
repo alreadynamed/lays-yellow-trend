@@ -3,8 +3,11 @@
   width: 100%;
   height: 0;
   // block height
-  padding-top: 640px / 320px * 100%;
   background: $galleryBackground;
+
+  @media (max-width: 680px) {
+    padding-top: 640px / 320px * 100%;
+  }
 
   @media (max-width: 1024px) and (min-width: 681px) {
     // display: flex;
@@ -29,12 +32,15 @@
 
 .description {
   position: absolute;
-  width: 100%;
-  height: 0;
-  top: 0;
-  padding-top: 640px / 640px * 100%;
-  background: url(/src/img/mobile/gallery_block_yellow.png) no-repeat;
-  background-size: cover;
+
+  @media (max-width: 680px) {
+    width: 100%;
+    height: 0;
+    top: 0;
+    padding-top: 640px / 640px * 100%;
+    background: url(/src/img/mobile/gallery_block_yellow.png) no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     width: 50%;
@@ -70,11 +76,14 @@
     position: absolute;
     width: 89.005%;
     height: 46.935%;
-    top: 47.5%;
-    left: 11%;
-    font-family: $boldFont;
-    font-size: 6.4vw;
-    line-height: 8.7vw;
+
+    @media (max-width: 680px) {
+      top: 47.5%;
+      left: 11%;
+      font-family: $boldFont;
+      font-size: 6.4vw;
+      line-height: 8.7vw;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       top: 37%;
@@ -103,12 +112,15 @@
     &::after {
       content: "";
       position: absolute;
-      top: -83%;
-      left: -5%;
-      width: 42.5vw;
-      height: 42.5vw;
-      background: url(/src/img/mobile/gallery_block_social_mobile.png) no-repeat;
-      background-size: contain;
+
+      @media (max-width: 680px) {
+        top: -83%;
+        left: -5%;
+        width: 42.5vw;
+        height: 42.5vw;
+        background: url(/src/img/mobile/gallery_block_social_mobile.png) no-repeat;
+        background-size: contain;
+      }
 
       @media (max-width: 1400px) and (min-width: 681px) {
         top: -69%;
@@ -141,14 +153,17 @@
 }
 
 .hashtag {
-  font-family: $regularFont;
-  background-color: white;
   display: inline-block;
-  font-size: 6.5vw;
-  padding: 0 0.35rem;
-  margin-left: -0.29rem;
-  letter-spacing: -0.3px;
-  color: $secondMobileLaysHashtagColor;
+  background-color: white;
+
+  @media (max-width: 680px) {
+    font-family: $regularFont;
+    font-size: 6.5vw;
+    padding: 0 0.35rem;
+    margin-left: -0.29rem;
+    letter-spacing: -0.3px;
+    color: $secondMobileLaysHashtagColor;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     margin-top: .4rem;
@@ -190,17 +205,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 39.92%;
-  height: 21.11%;
-  left: 50%;
   bottom: 20%;
   font-family: $regularFont;
-  font-size: 3.5vw;
   line-height: 4vw;
-  letter-spacing: 0.4px;
   color: #ffffff;
   border: 2px solid #ffffff;
   background-color: rgba(168, 5, 0, 0.1);
+
+  @media (max-width: 680px) {
+    width: 39.92%;
+    height: 21.11%;
+    left: 50%;
+    font-size: 3.5vw;
+    letter-spacing: 0.4px;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     width: 39%;
@@ -248,10 +266,13 @@
   position: absolute;
   top: 50%;
   left: 0;
-  padding: 13px;
-  width: 100%;
-  height: 50%;
   box-sizing: border-box;
+
+  @media (max-width: 680px) {
+    padding: 13px;
+    width: 100%;
+    height: 50%;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     width: 50%;
@@ -292,12 +313,15 @@
   position: absolute;
   width: 95.92%;
   height: 95.92%;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 680px) {
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 3px;
