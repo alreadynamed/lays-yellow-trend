@@ -2,7 +2,10 @@
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 640px / 320px * 100%;
+
+  @media (max-width: 680px) {
+    padding-top: 640px / 320px * 100%;
+  }
 
   @media (max-width: 1024px) and (min-width: 681px) {
     // display: flex;
@@ -27,9 +30,12 @@
 
 .about__image-block {
   position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 50%;
+
+  @media (max-width: 680px) {
+    top: 50%;
+    width: 100%;
+    height: 50%;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 0;
@@ -58,15 +64,18 @@
 
 .image-block__image_about {
   position: absolute;
-  width: auto;
-  height: auto;
-  top: -10%;
-  left: 0;
-  right: 0;
-  bottom: -10%;
-  padding-top: 320px / 320px * 100%;
-  background: url(/src/img/mobile/about_block_img.jpg) no-repeat;
-  background-size: cover;
+
+  @media (max-width: 680px) {
+    width: auto;
+    height: auto;
+    top: -10%;
+    left: 0;
+    right: 0;
+    bottom: -10%;
+    padding-top: 320px / 320px * 100%;
+    background: url(/src/img/mobile/about_block_img.jpg) no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     width: 104.5%;
@@ -107,9 +116,12 @@
 
 .description-block {
   position: absolute;
-  top: 0;
-  width: 100%;
-  padding-top: 320px / 320px * 100%;
+
+  @media (max-width: 680px) {
+    top: 0;
+    width: 100%;
+    padding-top: 320px / 320px * 100%;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 0;
@@ -131,8 +143,11 @@
 
   &__text {
     position: absolute;
-    width: 100%;
-    top: 13%;
+
+    @media (max-width: 680px) {
+      width: 100%;
+      top: 13%;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       width: 50%;
@@ -154,11 +169,13 @@
   }
 
   &__caption_mobile {
-    font-family: $boldFont;
-    margin-left: 10%;
-    font-size: 9vw;
-    line-height: 9.5vw;
-    color: #ffffff;
+    @media (max-width: 680px) {
+      font-family: $boldFont;
+      margin-left: 10%;
+      font-size: 9vw;
+      line-height: 9.5vw;
+      color: #ffffff;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       display: none;
@@ -174,13 +191,15 @@
   }
 
   &__info_mobile {
-    width: 50%;
-    font-family: $regularFont;
-    margin-top: 10%;
-    margin-left: 10%;
-    font-size: 3.8vw;
-    line-height: 5vw;
-    color: #ffffff;
+    @media (max-width: 680px) {
+      width: 50%;
+      font-family: $regularFont;
+      margin-top: 10%;
+      margin-left: 10%;
+      font-size: 3.8vw;
+      line-height: 5vw;
+      color: #ffffff;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       display: none;
@@ -196,7 +215,9 @@
   }
 
   &__caption_desktop {
-    display: none;
+    @media (max-width: 680px) {
+      display: none;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       display: block;
@@ -261,7 +282,9 @@
   }
 
   &__info_desktop {
-    display: none;
+    @media (max-width: 680px) {
+      display: none;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       display: block;
@@ -300,17 +323,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.5vw;
     color: #ffffff;
     border: 2px solid white;
-    left: 39.5%;
-    bottom: -34%;
-    margin-top: 0;
-    margin-left: -7%;
-    width: 35%;
-    height: 18%;
     background-color: rgba(255, 245, 159, 0.1);
-    letter-spacing: 0.4px;
+
+    @media (max-width: 680px) {
+      font-size: 3.5vw;
+      left: 39.5%;
+      bottom: -34%;
+      margin-top: 0;
+      margin-left: -7%;
+      width: 35%;
+      height: 18%;
+      letter-spacing: 0.4px;
+    }
 
     @media (max-width: 1400px) and (min-width: 681px) {
       position: absolute;
@@ -355,8 +381,10 @@
 
 // description background
 .about {
-  background: url(/src/img/mobile/about_block_red.png) no-repeat;
-  background-size: cover;
+  @media (max-width: 680px) {
+    background: url(/src/img/mobile/about_block_red.png) no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 1400px) and (min-width: 681px) {
     padding-top: 0;
