@@ -57,6 +57,7 @@
   height: 100%;
   overflow: auto;
   background: $secondaryPageBackground;
+  z-index: 2;
 }
 
 .page-content-overflow {
@@ -71,4 +72,18 @@
   width: 100%;
   overflow: hidden;
   // padding-bottom: 42px;
+
+  @media (min-width: 1025px) {
+    animation: pageOpacity 1s ease;
+
+    @keyframes pageOpacity {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  }
 }
