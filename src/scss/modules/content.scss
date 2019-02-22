@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   height: auto;
+  z-index: -1;
 
   @media (max-width: 1024px) and (min-width: 681px) {
     position: absolute;
@@ -73,17 +74,15 @@
   overflow: hidden;
   // padding-bottom: 42px;
 
-  @media (min-width: 1025px) {
-    animation: pageOpacity 1s ease;
+  animation: pageOpacity 1s ease;
 
-    @keyframes pageOpacity {
-      0% {
-        opacity: 0;
-      }
+  @keyframes pageOpacity {
+    0% {
+      opacity: 0;
+    }
 
-      100% {
-        opacity: 1;
-      }
+    100% {
+      opacity: 1;
     }
   }
 }
