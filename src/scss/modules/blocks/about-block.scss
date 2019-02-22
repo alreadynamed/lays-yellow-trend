@@ -60,6 +60,10 @@
     height: 100%;
     overflow: hidden;
   }
+
+  @media (min-width: 1025px) {
+    display: none;
+  }
 }
 
 .image-block__image_about {
@@ -135,18 +139,21 @@
 
   @media (max-width: 1400px) and (min-width: 681px) {
     top: 0;
+    left: 0;
     width: 50%;
     height: 100%;
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
     top: 0;
+    left: 0;
     width: 50%;
     height: 100%;
   }
 
   @media (min-width: 1561px) {
     top: 0;
+    left: 0;
     width: 50%;
     height: 100%;
   }
@@ -460,6 +467,48 @@
       height: 10.43vw;
       background: url(/src/img/desktop/about_block_red_arrow.png) no-repeat;
       background-size: cover;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    display: none;
+  }
+}
+
+// добавить к description-block about и lmage-block__image_lays
+.fromLeftToCenter {
+  @media (min-width: 1025px) {
+    animation: fromLeftToRight 1s ease;
+
+    @keyframes fromLeftToRight {
+      0% {
+        left: -10%;
+        opacity: 0;
+      }
+
+      100% {
+        left: 0;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// добавить к description-block lays about и lmage-block__image_about
+.fromRightToCenter {
+  @media (min-width: 1025px) {
+    animation: fromRightToLeft 1s ease;
+
+    @keyframes fromRightToLeft {
+      0% {
+        left: 60%;
+        opacity: 0;
+      }
+
+      100% {
+        left: 50%;
+        opacity: 1;
+      }
     }
   }
 }

@@ -55,6 +55,10 @@
     top: 0;
     overflow: hidden;
   }
+
+  @media (min-width: 1025px) {
+    display: none;
+  }
 }
 
 // description background
@@ -75,7 +79,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       top: 40.5%;
       right: 100%;
       width: 4.3vw;
@@ -95,7 +99,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       top: 40%;
       right: 99.5%;
       width: 4.9vw;
@@ -115,7 +119,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       top: 40%;
       right: 99.5%;
       width: 4.9vw;
@@ -123,6 +127,10 @@
       background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
       background-size: cover;
     }
+  }
+
+  @media (min-width: 1025px) {
+    display: none;
   }
 }
 
@@ -274,11 +282,11 @@
       top: 0;
       left: 0;
       background: #000;
-      transition: opacity .5s ease;
+      transition: opacity 0.5s ease;
     }
 
     &:hover:before {
-      opacity: .1;
+      opacity: 0.1;
       cursor: pointer;
     }
   }
