@@ -9,6 +9,8 @@
   @media (max-width: 680px) {
     width: 100%;
     height: 80px;
+    transform: translate(0);
+    transition: transform .5s ease, opacity .5s ease;
   }
 
   @media (max-width: 1024px) and (min-width: 681px) {
@@ -86,18 +88,21 @@
   // Начальная позиция блоков для анимации при нажитии на .mobile-menu
   &_gallery {
     @media (max-width: 680px) {
+      opacity: 0;
       transform: translate(-50px, 0, 0);
     }
   }
 
   &_about {
     @media (max-width: 680px) {
+      opacity: 0;
       transform: translate(50px, 0, 0);
     }
   }
 
   &_lays {
     @media (max-width: 680px) {
+      opacity: 0;
       transform: translate(-50px, 0, 0);
     }
   }
@@ -392,14 +397,14 @@
 
 .close-menu_mobile {
   @media (max-width: 680px) {
-    display: block;
+    visibility: hidden;
+    opacity: 0;
     height: 60px;
     line-height: 60px;
     background: #f0eded;
     border-top: 1px solid rgba(155, 155, 155, 0.18);
     transform: translate(50px, 0, 0);
-    opacity: 0;
-    transition: transform .5s ease, opacity .5s ease;
+    transition: transform .5s ease, opacity .5s ease, visibility .5s ease;
   }
 
   @media (min-width: 681px) {
@@ -470,7 +475,7 @@
   }
 }
 
-.menu_open {
+.menu_opened {
   @media (max-width: 680px) {
     &:not(:first-child) {
       opacity: 1;
@@ -479,9 +484,17 @@
   }
 }
 
-.close-menu_mobile_open {
+.close-menu_mobile_opened {
   @media (max-width: 680px) {
+    visibility: visible;
     opacity: 1;
     transform: translate(0);
+  }
+}
+
+.header_hide {
+  @media (max-width: 680px) {
+    transition: transform .4s ease;
+    transform: translate(0, -80px);
   }
 }
