@@ -18,10 +18,10 @@ function headerBlockMoveState(event) {
     if (headerBlock.classList.contains('opened')) {
       headerBlock.style.transform = '';
     } else {
-      headerBlock.classList.add('header_is-hidden');
+      headerBlock.classList.add('header_hide');
     }
   } else {
-    headerBlock.classList.remove('header_is-hidden');
+    headerBlock.classList.remove('header_hide');
   }
 }
 
