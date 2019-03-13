@@ -54,7 +54,7 @@
     height: 0;
     top: 0;
     padding-top: 640px / 640px * 100%;
-    background: url(/src/img/mobile/gallery_block_yellow.png) no-repeat;
+    background: url(../img/mobile/gallery_block_yellow.png) no-repeat;
     background-size: cover;
   }
 
@@ -63,7 +63,7 @@
     height: 100%;
     top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/gallery-block-background.jpg) no-repeat;
+    background: url(../img/desktop/gallery-block-background.jpg) no-repeat;
     // background-size: contain;
     background-size: cover;
   }
@@ -73,7 +73,7 @@
     height: 100%;
     top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/gallery-block-background.jpg) no-repeat;
+    background: url(../img/desktop/gallery-block-background.jpg) no-repeat;
     // background-size: contain;
     background-size: cover;
   }
@@ -83,7 +83,7 @@
     height: 100%;
     top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/gallery-block-background.jpg) no-repeat;
+    background: url(../img/desktop/gallery-block-background.jpg) no-repeat;
     // background-size: contain;
     background-size: cover;
   }
@@ -134,7 +134,7 @@
         left: -5%;
         width: 42.5vw;
         height: 42.5vw;
-        background: url(/src/img/mobile/gallery_block_social_mobile.png) no-repeat;
+        background: url(../img/mobile/gallery_block_social_mobile.png) no-repeat;
         background-size: contain;
       }
 
@@ -143,7 +143,7 @@
         left: 5.5%;
         width: 9.938vw;
         height: 12.923vw;
-        background: url(/src/img/desktop/gallery_block_social.png) no-repeat;
+        background: url(../img/desktop/gallery_block_social.png) no-repeat;
         background-size: contain;
       }
 
@@ -152,7 +152,7 @@
         left: 6.5%;
         width: 11vw;
         height: 14.3vw;
-        background: url(/src/img/desktop/gallery_block_social.png) no-repeat;
+        background: url(../img/desktop/gallery_block_social.png) no-repeat;
         background-size: contain;
       }
 
@@ -161,7 +161,7 @@
         left: 6%;
         width: 11.075vw;
         height: 14.4105vw;
-        background: url(/src/img/desktop/gallery_block_social.png) no-repeat;
+        background: url(../img/desktop/gallery_block_social.png) no-repeat;
         background-size: contain;
       }
     }
@@ -378,108 +378,108 @@
 }
 
 .photo-1 {
-  background: url(/src/img/mobile/gallery-pictures/image_one.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_one.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_one.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_one.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-2 {
-  background: url(/src/img/mobile/gallery-pictures/image_two.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_two.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_two.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_two.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-3 {
-  background: url(/src/img/mobile/gallery-pictures/image_three.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_three.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_three.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_three.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-4 {
-  background: url(/src/img/mobile/gallery-pictures/image_four.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_four.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_four.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_four.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-5 {
-  background: url(/src/img/mobile/gallery-pictures/image_five.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_five.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_five.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_five.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-6 {
-  background: url(/src/img/mobile/gallery-pictures/image_six.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_six.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_six.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_six.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-7 {
-  background: url(/src/img/mobile/gallery-pictures/image_seven.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_seven.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_seven.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_seven.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-8 {
-  background: url(/src/img/mobile/gallery-pictures/image_eight.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_eight.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_eight.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_eight.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 
 .photo-9 {
-  background: url(/src/img/mobile/gallery-pictures/image_nine.png) no-repeat;
+  background: url(../img/mobile/gallery-pictures/image_nine.png) no-repeat;
   background-size: cover;
   background-position: center;
 
   @media (min-width: 1025px) {
-    background: url(/src/img/desktop/gallery-pictures/image_nine.png) no-repeat;
+    background: url(../img/desktop/gallery-pictures/image_nine.png) no-repeat;
     background-size: cover;
     background-position: center;
   }

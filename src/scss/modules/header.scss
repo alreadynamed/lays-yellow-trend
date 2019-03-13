@@ -150,7 +150,7 @@
       left: 19px;
       width: 57px;
       height: 50px;
-      background: url(/src/img/mobile/lays_logo.png) no-repeat;
+      background: url(../img/mobile/lays_logo.png) no-repeat;
       background-size: cover;
     }
   }
@@ -161,7 +161,7 @@
       width: 100%;
       height: 100%;
       top: -34px;
-      background: url(/src/img/desktop/lays_logo.png) no-repeat;
+      background: url(../img/desktop/lays_logo.png) no-repeat;
       background-position: center;
       background-size: 97px 85px;
     }
@@ -173,7 +173,7 @@
       width: 100%;
       height: 100%;
       top: -34px;
-      background: url(/src/img/desktop/lays_logo.png) no-repeat;
+      background: url(../img/desktop/lays_logo.png) no-repeat;
       background-position: center;
       background-size: 97px 85px;
     }
@@ -185,7 +185,7 @@
       width: 100%;
       height: 100%;
       top: -34px;
-      background: url(/src/img/desktop/lays_logo.png) no-repeat;
+      background: url(../img/desktop/lays_logo.png) no-repeat;
       background-position: center;
       background-size: 97px 85px;
     }
@@ -309,25 +309,25 @@
 
 .gallery-icon {
   @media (max-width: 680px) {
-    background: url(/src/img/mobile/menu/gallery.png) no-repeat;
+    background: url(../img/mobile/menu/gallery.png) no-repeat;
     background-position: 28px center;
     background-size: 40px 40px;
   }
 
   @media (max-width: 1400px) and (min-width: 681px) {
-    background: url(/src/img/desktop/menu/gallery.png) no-repeat;
+    background: url(../img/desktop/menu/gallery.png) no-repeat;
     background-position: center;
     background-size: 48px 48px;
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/menu/gallery.png) no-repeat;
+    background: url(../img/desktop/menu/gallery.png) no-repeat;
     background-position: center;
     background-size: 48px 48px;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/menu/gallery.png) no-repeat;
+    background: url(../img/desktop/menu/gallery.png) no-repeat;
     background-position: center;
     background-size: 48px 48px;
   }
@@ -335,25 +335,25 @@
 
 .about-icon {
   @media (max-width: 680px) {
-    background: url(/src/img/mobile/menu/about.png) no-repeat;
+    background: url(../img/mobile/menu/about.png) no-repeat;
     background-position: 28px center;
     background-size: 40px 40px;
   }
 
   @media (max-width: 1400px) and (min-width: 681px) {
-    background: url(/src/img/desktop/menu/about.png) no-repeat;
+    background: url(../img/desktop/menu/about.png) no-repeat;
     background-position: center 40%;
     background-size: 49px 59px;
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/menu/about.png) no-repeat;
+    background: url(../img/desktop/menu/about.png) no-repeat;
     background-position: center 40%;
     background-size: 49px 59px;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/menu/about.png) no-repeat;
+    background: url(../img/desktop/menu/about.png) no-repeat;
     background-position: center 40%;
     background-size: 49px 59px;
   }
@@ -361,25 +361,25 @@
 
 .lays-icon {
   @media (max-width: 680px) {
-    background: url(/src/img/mobile/menu/lays.png) no-repeat;
+    background: url(../img/mobile/menu/lays.png) no-repeat;
     background-position: 28px center;
     background-size: 40px 40px;
   }
 
   @media (max-width: 1400px) and (min-width: 681px) {
-    background: url(/src/img/desktop/menu/lays.png) no-repeat;
+    background: url(../img/desktop/menu/lays.png) no-repeat;
     background-position: center;
     background-size: 51px 49px;
   }
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/menu/lays.png) no-repeat;
+    background: url(../img/desktop/menu/lays.png) no-repeat;
     background-position: center;
     background-size: 51px 49px;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/menu/lays.png) no-repeat;
+    background: url(../img/desktop/menu/lays.png) no-repeat;
     background-position: center;
     background-size: 51px 49px;
   }

@@ -85,7 +85,7 @@
   float: left;
   height: 50px;
   width: 42px;
-  background: url(/src/img/desktop/lays_mini_logo.jpg) no-repeat;
+  background: url(../img/desktop/lays_mini_logo.jpg) no-repeat;
   background-size: cover;
   margin-left: 17px;
 
@@ -176,72 +176,72 @@
 }
 
 .fb {
-  background: url(/src/img/mobile/social/facebook_mobile.jpg) no-repeat;
+  background: url(../img/mobile/social/facebook_mobile.jpg) no-repeat;
   background-color: $facebook;
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/social/facebook.jpg) no-repeat;
+    background: url(../img/desktop/social/facebook.jpg) no-repeat;
     background-color: $facebook;
     background-position: center;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/social/facebook.jpg) no-repeat;
+    background: url(../img/desktop/social/facebook.jpg) no-repeat;
     background-color: $facebook;
     background-position: center;
   }
 }
 
 .vk {
-  background: url(/src/img/mobile/social/vk_mobile.jpg) no-repeat;
+  background: url(../img/mobile/social/vk_mobile.jpg) no-repeat;
   background-color: $vk;
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/social/vk.jpg) no-repeat;
+    background: url(../img/desktop/social/vk.jpg) no-repeat;
     background-color: $vk;
     background-position: center;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/social/vk.jpg) no-repeat;
+    background: url(../img/desktop/social/vk.jpg) no-repeat;
     background-color: $vk;
     background-position: center;
   }
 }
 
 .ls {
-  background: url(/src/img/mobile/social/lays_mobile.jpg) no-repeat;
+  background: url(../img/mobile/social/lays_mobile.jpg) no-repeat;
   background-color: $lays;
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/social/lays.jpg) no-repeat;
+    background: url(../img/desktop/social/lays.jpg) no-repeat;
     background-color: $lays;
     background-position: center;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/social/lays.jpg) no-repeat;
+    background: url(../img/desktop/social/lays.jpg) no-repeat;
     background-color: $lays;
     background-position: center;
   }
 }
 
 .yt {
-  background: url(/src/img/mobile/social/youtube_mobile.jpg) no-repeat;
+  background: url(../img/mobile/social/youtube_mobile.jpg) no-repeat;
   background-color: $youtube;
   background-position: center;
 
   @media (max-width: 1560px) and (min-width: 1401px) {
-    background: url(/src/img/desktop/social/youtube.jpg) no-repeat;
+    background: url(../img/desktop/social/youtube.jpg) no-repeat;
     background-color: $youtube;
     background-position: center;
   }
 
   @media (min-width: 1561px) {
-    background: url(/src/img/desktop/social/youtube.jpg) no-repeat;
+    background: url(../img/desktop/social/youtube.jpg) no-repeat;
     background-color: $youtube;
     background-position: center;
   }

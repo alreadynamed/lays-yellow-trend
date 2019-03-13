@@ -65,7 +65,7 @@
 .lays {
   @media (max-width: 680px) {
     border-top: 5px solid #ffffff;
-    background: url(/src/img/mobile/lays_block.png) no-repeat;
+    background: url(../img/mobile/lays_block.png) no-repeat;
     background-size: cover;
   }
 
@@ -74,7 +74,7 @@
     left: 50%;
     border-top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/block_lays.jpg) no-repeat;
+    background: url(../img/desktop/block_lays.jpg) no-repeat;
     background-size: cover;
 
     &::before {
@@ -84,7 +84,7 @@
       right: 100%;
       width: 4.3vw;
       height: 10.2vw;
-      background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
+      background: url(../img/desktop/about_block_yellow_arrow.png) no-repeat;
       background-size: cover;
     }
   }
@@ -94,7 +94,7 @@
     left: 50%;
     border-top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/block_lays.jpg) no-repeat;
+    background: url(../img/desktop/block_lays.jpg) no-repeat;
     background-size: cover;
 
     &::before {
@@ -104,7 +104,7 @@
       right: 99.5%;
       width: 4.9vw;
       height: 11.3vw;
-      background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
+      background: url(../img/desktop/about_block_yellow_arrow.png) no-repeat;
       background-size: cover;
     }
   }
@@ -114,7 +114,7 @@
     left: 50%;
     border-top: 0;
     padding-top: 0;
-    background: url(/src/img/desktop/block_lays.jpg) no-repeat;
+    background: url(../img/desktop/block_lays.jpg) no-repeat;
     background-size: cover;
 
     &::before {
@@ -124,7 +124,7 @@
       right: 99.5%;
       width: 4.9vw;
       height: 11.3vw;
-      background: url(/src/img/desktop/about_block_yellow_arrow.png) no-repeat;
+      background: url(../img/desktop/about_block_yellow_arrow.png) no-repeat;
       background-size: cover;
     }
   }
@@ -145,7 +145,7 @@
     right: 0;
     bottom: 0;
     padding-top: 320px / 320px * 100%;
-    background: url(/src/img/mobile/block_lays_img.jpg) no-repeat;
+    background: url(../img/mobile/block_lays_img.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -155,7 +155,7 @@
     left: -2%;
     right: 0;
     bottom: -2%;
-    background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
+    background: url(../img/desktop/block_lays_image.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -165,7 +165,7 @@
     left: -2%;
     right: 0;
     bottom: -2%;
-    background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
+    background: url(../img/desktop/block_lays_image.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -175,7 +175,7 @@
     left: -2%;
     right: 0;
     bottom: -2%;
-    background: url(/src/img/desktop/block_lays_image.jpg) no-repeat;
+    background: url(../img/desktop/block_lays_image.jpg) no-repeat;
     background-size: cover;
   }
 
